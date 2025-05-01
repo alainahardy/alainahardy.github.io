@@ -1,0 +1,73 @@
+h1 {
+    text-align:center;
+    color:lightpink;
+}
+
+body{ 
+    background-color:mintcream;
+}
+
+h2 {
+    text-align: center;
+    color: lightpink;
+}
+
+h3 {
+    text-align:center;
+    color:lightpink;
+}
+
+.about-text {
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 60px;
+    font-size: larger;
+}
+
+.topnav {
+    background-color: darkgray;
+    overflow:hidden;
+}
+
+.topnav a {
+    float:left;
+    color:lightpink;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size:17px;
+}
+
+.topnav a:hover {
+    background-color:lightpink;
+    color:aliceblue;
+}
+
+.topnav a.active {
+    background-color:lightpink;
+    color:aliceblue;
+}
+
+.home-img {
+    grid-column:1;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.about-img {
+  grid-column:2;
+  height:600px;
+}
+
+.container {
+    display:grid;
+}
+
+table {
+    border:2px solid;
+    width:90%;
+    align-content: center;
+
+}
